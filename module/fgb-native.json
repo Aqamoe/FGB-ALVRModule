@@ -1,0 +1,14 @@
+{
+  "ModuleId": "com.fgbbridge.alvr",
+  "ModuleName": "ALVR",
+  "AuthorName": "Aqamoe (光水)",
+  "Version": "0.1.0",
+  "ModuleDescription": "接收 ALVR 服务端发出的 VRCFT 兼容 UDP 二进制包（端口 41463），输出 Unified Expressions 表情、睁眼度与逐眼注视方向。不需要 VRCFT，不注入进程。",
+  "UsageInstructions": "1. 在 ALVR 服务端设置里把 Eye and face tracking 设为 VRCFaceTracking（客户端需支持对应头显的眼动/表情追踪）。2. 关闭 VRCFaceTracking：它和本模块抢同一个 UDP 41463 端口。3. 在「模块」页把 ALVR 设为启动并重启引擎，佩戴头显开始串流后模块卡片应显示活跃。本模块为社区未验证实现。",
+  "ModulePageUrl": "https://github.com/Aqamoe/FGB-ALVRModule",
+  "ModuleIcon": "icon.svg",
+  "DllFileName": "alvr.dll",
+  "AbiVersion": 2,
+  "Capabilities": ["expression", "eyes"],
+  "RoleHint": "expression"
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="ALVR">
+  <title>ALVR</title>
+  <desc>VR 头显轮廓与注视波纹，透明背景，单色在中性灰度下对深色与浅色主题都可读。</desc>
+  <g fill="none" stroke="#8C97AC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 52 h84 a10 10 0 0 1 10 10 v14 a10 10 0 0 1 -10 10 h-26 l-10 -10 -10 10 h-26 a10 10 0 0 1 -10 -10 v-14 a10 10 0 0 1 10 -10 z" />
+    <path d="M14 60 h6" />
+    <path d="M14 76 h6" />
+    <circle cx="44" cy="70" r="5" />
+    <circle cx="84" cy="70" r="5" />
+    <path d="M58 34 a10 10 0 0 1 12 0" />
+    <path d="M52 24 a18 14 0 0 1 24 0" />
+    <path d="M46 14 a26 20 0 0 1 36 0" />
+  </g>
+</svg>

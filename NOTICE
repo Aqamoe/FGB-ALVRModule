@@ -1,0 +1,21 @@
+FGB ALVRModule
+Copyright 2026 Aqamoe (光水)
+
+This product includes a copy of fgb_module_api.h from FaceGaze Bridge
+(https://github.com/Aqamoe/FaceGaze-Bridge), licensed under the Apache
+License, Version 2.0. The header is resolved at build time from the release
+pinned in sdk.lock.json; this repository does not contain a copy of it.
+
+The wire format (UDP port 41463, 8-byte ASCII prefixes, little-endian float32
+payloads), the prefix/field table and the eye-openness formula were informed
+by the ALVR server source
+(alvr/server_core/src/tracking/face.rs of https://github.com/alvr-org/ALVR,
+MIT-style license) and by the VRCFT module VRCFT-ALVR
+(https://github.com/alvr-org/VRCFT-ALVR, Apache License 2.0); expression field
+orderings were cross-checked against the Khronos OpenXR registry
+(XR_FB_face_tracking2, XR_HTC_facial_tracking, XR_BD_facial_simulation).
+This repository is an independent C++ implementation of that wire format and
+contains none of their source code.
+
+ALVR is a trademark of its contributors. This project is not affiliated with
+or endorsed by ALVR or VRCFaceTracking.
